@@ -2,14 +2,14 @@
 #
 
 # Site settings
-title: UNTILL© PPO LTD
+title: UNTILL© PRO LTD
 description: |
   We bring your imagination to reality
 owner: untill.eu
 first_published: 2016 # if migrating another site, the year of your first publish
-email: your-email@domain.com
+email:  info@untill.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://untill.com" # the base hostname & protocol for your site
 social:
   twitter: https://twitter.com/<username>
   github: https://github.com/<username>
