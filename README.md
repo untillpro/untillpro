@@ -1,3 +1,3 @@
 ## Introduction
 
-This is a site for untill pro company
+This is a site for unTill© Pro company
