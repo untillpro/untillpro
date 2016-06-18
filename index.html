@@ -54,11 +54,6 @@ layout: landing
 				<!-- Three -->
 					<section id="three" class="wrapper style3 special">
 						<div class="inner">
-							<header class="major">
-  {% for post in site.posts %}
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-  {% endfor %}
-							</header>
 							<ul class="features">
 								<li class="icon fa-paper-plane-o">
 									<h3>Arcu accumsan</h3>
@@ -86,6 +81,15 @@ layout: landing
 								</li>
 							</ul>
 						</div>
+							<header class="major">
+							<h1>News</h1>
+							<ul>
+							{% for post in site.posts %}
+								<li>{{ post.date | date: "%d %B %Y" }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+							{% endfor %}
+							</ul>
+							</header>
+
 					</section>
 
 				<!-- CTA -->
