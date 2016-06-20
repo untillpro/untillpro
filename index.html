@@ -56,7 +56,7 @@ layout: landing
 								<li class="icon fa-paper-plane-o">
 									<h3>{{ post.date | date: "%d %B %Y" }}</h3>
 									<p><a href="{{ site.url | append: site.baseurl | append: post.url}}">{{ post.title }}</a></p>
-									<p><a class="button" href="{{ site.url | append: site.baseurl | append: post.url}}#disqus_thread"></a></p>
+									<p><a class="button" href="{{ site.url | append: site.baseurl | append: post.url}}#disqus_thread">Count</a></p>
 								</li>
 							{% endfor %}
 							</ul>
